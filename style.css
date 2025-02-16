@@ -47,3 +47,78 @@ body {
 .check-discount-offer:hover {
     background-color: rgba(64, 140, 103, 0.8);
 }
+.over-the-counter,
+.over-the-counter * {
+  box-sizing: border-box;
+}
+.over-the-counter {
+  position: relative;
+}
+.rectangle-17 {
+  background: #c4f7fc;
+  width: 322.42px;
+  height: 276px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.over-the-counter2 {
+  color: #838383;
+  text-align: left;
+  font-family: "Ramabhadra-Regular", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: absolute;
+  left: 22.16px;
+  top: 25px;
+  width: 247.99px;
+  height: 57.1px;
+  transform-origin: 0 0;
+  transform: rotate(0.157deg) scale(1, 1);
+}
+.group-2 {
+  width: 122.07px;
+  height: 36.18px;
+  position: static;
+}
+.frame-12 {
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #838383;
+  border-width: 2px;
+  width: 122.07px;
+  height: 36.18px;
+  position: absolute;
+  left: 91.55px;
+  top: 191.01px;
+  overflow: hidden;
+}
+.view {
+  color: #838383;
+  text-align: left;
+  font-family: "Ramabhadra-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 39.45px;
+  top: -0.01px;
+  width: 83px;
+  height: 46px;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua {
+  color: #838383;
+  text-align: left;
+  font-family: "Ramabhadra-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: absolute;
+  left: 22.11px;
+  top: 66px;
+  width: 278.4px;
+  height: 39.9px;
+  transform-origin: 0 0;
+  transform: rotate(0.157deg) scale(1, 1);
+}
+
