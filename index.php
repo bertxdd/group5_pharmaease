@@ -27,19 +27,8 @@
         </section>
 
         <section id="navigation">
-            <div class="over-the-counter">
-                <div class="rectangle-17"></div>
-                <div class="over-the-counter2">Over The Counter</div>
-                <div class="group-2">
-                    <div class="frame-12">
-                        <div class="view">View</div>
-                    </div>
-                </div>
-                <div class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua
-                </div>
-            </div>
+            
+            
         </section>
     </section>
 </body>
