@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #8D8D8D;
+    width: 100%;
+    height: 230px;
+    opacity: .6;
+}
+#homebg {
+    background-image: url('young-woman-pharmacist-pharmacy\ 1.png');
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#welcome {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+#welcome h1 {
+    font-family: "Days One", serif;
+    font-size: 40px;
+    color: #fff;
+}
+.check-discount-offer {
+  color: #ffffff;
+  position: relative;
+  font-family: "Ramabhadra-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  left: 36px;
+  top: 9px;
+  background: rgb(64, 140, 103);
+  border-radius: 16px;
+  width: 319px;
+  height: 64px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border: #fff;
+}
+.check-discount-offer:hover {
+    background-color: rgba(64, 140, 103, 0.8);
+}
