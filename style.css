@@ -1,31 +1,31 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 #header {
-    background-color: #8D8D8D;
-    width: 100%;
-    height: 230px;
-    opacity: .6;
+  background-color: #8d8d8d;
+  width: 100%;
+  height: 230px;
+  opacity: 0.6;
 }
 #homebg {
-    background-image: url('young-woman-pharmacist-pharmacy\ 1.png');
-    width: 100%;
-    height: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("young-woman-pharmacist-pharmacy\ 1.png");
+  width: 100%;
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #welcome {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #welcome h1 {
-    font-family: "Days One", serif;
-    font-size: 40px;
-    color: #fff;
+  font-family: "Days One", serif;
+  font-size: 40px;
+  color: #fff;
 }
 .check-discount-offer {
   color: #ffffff;
@@ -44,21 +44,75 @@ body {
   border: #fff;
 }
 .check-discount-offer:hover {
-    background-color: rgba(64, 140, 103, 0.8);
+  background-color: rgba(64, 140, 103, 0.8);
 }
 .navbox {
-    background-color: #C4F7FC;
-    width: 322px;
-    height: 276px;
-    margin: 10px 50px;
+  background-color: #c4f7fc;
+  width: 322px;
+  height: 276px;
+  margin: 10px 50px;
+  color: #838383;
+  font-family: "Ramabhadra-Regular", sans-serif;
 }
-
+.navbox h2,
+.navbox p {
+  text-align: justify;
+  width: 250px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.navbox h2 {
+  margin-top: 40px;
+}
 #navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin-top: -230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -400px;
+}
+#navbutton {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #838383;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #838383;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  line-height: normal;
+  margin: 0;
+  padding: 5px 40px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
 }
 
+#navbutton:disabled {
+  pointer-events: none;
+}
+
+#navbutton:hover {
+  color: #fff;
+  background-color: #838383;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+#navbutton:active {
+  box-shadow: none;
+}
+.navbox button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
