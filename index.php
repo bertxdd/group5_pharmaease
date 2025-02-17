@@ -15,7 +15,6 @@
     <section id="homebg">
         <section id="header">
             <img src="Frame 6.png">
-
         </section>
         <section id="welcome">
             <h1>Welcome to PharmaEase <br>
@@ -25,10 +24,16 @@
                 <button class="check-discount-offer">Check Discount Offer</button>
             </div>
         </section>
-
         <section id="navigation">
-            
-            
+            <div class = "navbox" id = "navbox1">
+                a
+            </div>
+            <div class = "navbox" id = "navbox2">
+a
+            </div>
+            <div class = "navbox" id = "navbox3">
+a
+            </div>
         </section>
     </section>
 </body>

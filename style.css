@@ -47,5 +47,15 @@ body {
 .check-discount-offer:hover {
     background-color: rgba(64, 140, 103, 0.8);
 }
-
+.navbox {
+    background-color: #C4F7FC;
+    width: 322px;
+    height: 276px;
+}
+#navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
