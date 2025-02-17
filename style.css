@@ -53,6 +53,8 @@ body {
   margin: 10px 50px;
   color: #838383;
   font-family: "Ramabhadra-Regular", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .navbox h2,
 .navbox p {
@@ -115,4 +117,122 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+#list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: -50px auto;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.medicine-list {
+    background-color: #f5f5f5;
+    width: 323px;
+    height: 352px;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.medicine-list:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+#popular {
+    color: #838383;
+    text-align: left;
+    font-family: "DaysOne-Regular", sans-serif;
+    font-size: 32px;
+    position: relative;
+    left: 20%;
+    font-weight: bolder;
+}
+#pos {
+    margin-top: -300px;
+}
+.frame-13,
+.frame-13 * {
+  box-sizing: border-box;
+}
+.frame-13 {
+  width: 241px;
+  height: 142px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  left: 50%;
+  transform: translate(-50%);
+  top: 50px;
+}
+.medtitle {
+    color: #408c67;
+    text-align: left;
+    font-family: "Ramabhadra-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    width: 291px;
+    top: 50px;
+    left: 40px;
+    font-weight:700;
+  }
+  .medprice {
+    color: #838383;
+    text-align: left;
+    font-family: "Ramabhadra-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    width: 104px;
+    top: 50px;
+    left: 40px;
+  }
+  .meddesc {
+    color: #838383;
+    text-align: left;
+    font-family: "Ramabhadra-Regular", sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    position: relative;
+    width: 169.75px;
+    height: 92.72px;
+    transform-origin: 0 0;
+    transform: rotate(0.157deg) scale(1, 1);
+    top: 50px;
+    left: 40px;
+  }
+  .add-button {
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
+    transition: transform 300ms;
+    position: relative;
+    float: right;
+}
+
+.add-button:hover {
+    transform: rotate(90deg);
+}
+
+.button-icon {
+    stroke: #a1a1aa; /* zinc-400 */
+    fill: none;
+    transition: fill 300ms;
+}
+
+.add-button:hover .button-icon {
+    fill: #27272a; /* zinc-800 */
+}
+
+.add-button:active .button-icon {
+    stroke: #e4e4e7; /* zinc-200 */
+    fill: #52525b; /* zinc-600 */
+    transition: none;
 }
