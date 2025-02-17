@@ -33,7 +33,6 @@ body {
   font-family: "Ramabhadra-Regular", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  left: 36px;
   top: 9px;
   background: rgb(64, 140, 103);
   border-radius: 16px;
@@ -51,11 +50,15 @@ body {
     background-color: #C4F7FC;
     width: 322px;
     height: 276px;
+    margin: 10px 50px;
 }
+
 #navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    margin-top: -230px;
 }
 

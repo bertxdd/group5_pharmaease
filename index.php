@@ -25,14 +25,14 @@
             </div>
         </section>
         <section id="navigation">
-            <div class = "navbox" id = "navbox1">
-                a
+            <div class="navbox" id="navbox1">
+                
             </div>
-            <div class = "navbox" id = "navbox2">
-a
+            <div class="navbox" id="navbox2">
+                
             </div>
-            <div class = "navbox" id = "navbox3">
-a
+            <div class="navbox" id="navbox3">
+                
             </div>
         </section>
     </section>
