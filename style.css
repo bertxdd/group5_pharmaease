@@ -1,13 +1,87 @@
+
 body {
   margin: 0;
   padding: 0;
 }
-#header {
-  background-color: #8d8d8d;
-  width: 100%;
-  height: 230px;
+.navbar {
+  background-color: #8d8d8d; /* White background */
   opacity: 0.6;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
 }
+.navbar img {
+  width: 100%;
+  height: 100%;
+}
+.navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Set a maximum width for the navbar */
+  margin: auto; /* Center the navbar */
+  position: relative;
+  top: 50%;
+  transform: translate(0%,-60%);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Dark gray or black color for brand */
+  font-weight: 500; /* Semi-bold font-weight */
+  margin-left: -300px;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-brand span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "DaysOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Ramabhadra-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  top: 50%;
+  width: 83px;
+  padding: 0.5rem 1rem; /* Add some padding around the link text */
+  border-radius: 5px; /* Add rounded corners to the nav links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: #007bff; /* Blue background on hover and active */
+  color: #fff; /* White text color on hover and active */
+}
+
 #homebg {
   background-image: url("young-woman-pharmacist-pharmacy\ 1.png");
   width: 100%;
@@ -15,6 +89,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 #welcome {
   display: flex;
@@ -128,6 +203,7 @@ body {
     margin: -50px auto;
     min-height: 100vh;
     place-items: center;
+    overflow: hidden;
 }
 
 .medicine-list {
@@ -137,6 +213,7 @@ body {
     margin: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
 }
 
 .medicine-list:hover {
@@ -151,9 +228,11 @@ body {
     position: relative;
     left: 20%;
     font-weight: bolder;
+    overflow: hidden;
 }
 #pos {
     margin-top: -300px;
+    overflow: hidden;
 }
 .frame-13,
 .frame-13 * {

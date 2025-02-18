@@ -13,9 +13,24 @@
 
 <body>
     <section id="homebg">
-        <section id="header">
-            <img src="Frame 6.png">
-        </section>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#" class="navbar-brand">
+                    <img src="Frame 6.png" alt="PharmaEase Logo">
+                    <span>PharmaEase</span> </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">User</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <section id="welcome">
             <h1>Welcome to PharmaEase <br>
                 A service you can trust</h1>
@@ -157,6 +172,7 @@
             </button>
         </div>
     </section>
+
 </body>
 
 </html>
