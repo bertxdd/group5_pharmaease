@@ -23,7 +23,7 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Cart</a>
+                        <a href="cart.php" class="nav-link">Cart</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">User</a>
@@ -85,6 +85,7 @@
                     <path d="M12 16V8" stroke-width="1.5"></path>
                 </svg>
             </button>
+
         </div>
         <div class="medicine-list">
             <img class="frame-13" src="Frame 14.png" />
@@ -172,7 +173,30 @@
             </button>
         </div>
     </section>
-
+    <div id="addModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&larr;</span>
+            <h2>Add to Cart</h2>
+            <div class="modal-body">
+                <div class="product-info">
+                    <img id="modalImage" src="" alt="Medicine" class="modal-image">
+                    <div class="product-details">
+                        <h3 id="modalTitle"></h3>
+                        <p id="modalPrice"></p>
+                    </div>
+                    <div class="quantity-selector">
+                        <div class="quantity-controls">
+                            <button class="quantity-btn" onclick="decrementQuantity()">-</button>
+                            <input type="number" id="quantity" value="1" min="1">
+                            <button class="quantity-btn" onclick="incrementQuantity()">+</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
